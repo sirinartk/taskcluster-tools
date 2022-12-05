@@ -56,7 +56,7 @@
     "neutrino": "^8.1.2",
     "neutrino-preset-mozilla-frontend-infra": "^1.0.4",
     "prop-types": "^15.6.0",
-    "qs": "^6.5.1",
+    "qs": "^6.5.3",
     "ramda": "^0.24.1",
     "react": "^15.5.4",
     "react-addons-css-transition-group": "^15.6.2",
