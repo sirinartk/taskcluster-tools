@@ -10145,14 +10145,15 @@ tar@^4:
     safe-buffer "^5.1.2"
     yallist "^3.0.2"
 
-taskcluster-client-web@^8.1.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/taskcluster-client-web/-/taskcluster-client-web-8.1.0.tgz#b6d7ff6781bc24b6d764e8cd67642d4670e96a02"
-  integrity sha512-vNgtzEP1HhPpUQXZDFKmQkOd/fA6H2BKap8DGRX4D8f3pJjqHueXSDSjvTbuRIBgb+xwWMQdGYx8lmPq8/FqYw==
+taskcluster-client-web@^29.3.0:
+  version "29.6.0"
+  resolved "https://registry.yarnpkg.com/taskcluster-client-web/-/taskcluster-client-web-29.6.0.tgz#57c2ba16cfdb444c69944918ade8991a49a5a6cb"
+  integrity sha512-ZI9nhjfVRe/tQ1cfXBdk2OsxdVVJxTzU9GdA6R41j7ESeudMj3bIh83S5Of9NbzmKvOxFKmN9fKg2QT8RqOthw==
   dependencies:
+    crypto-js "^3.1.9-1"
     hawk "^7.0.7"
     query-string "^6.1.0"
-    taskcluster-lib-urls "^10.0.0"
+    taskcluster-lib-urls "^12.0.0"
 
 taskcluster-lib-scopes@^1.9.0:
   version "1.9.0"
@@ -10165,6 +10166,11 @@ taskcluster-lib-urls@^10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/taskcluster-lib-urls/-/taskcluster-lib-urls-10.0.0.tgz#ee4c687b4539171d8aef39b38a63c8b9bc82f82e"
   integrity sha512-vaM5kbqxd3mc8nE/hjsxvOpL0c7b7ULMTneXbqNuVCWAwYMrFhNBHPGYpzHOzMY+SGF9grU5BFFd5VVJYBqFAQ==
+
+taskcluster-lib-urls@^12.0.0:
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/taskcluster-lib-urls/-/taskcluster-lib-urls-12.1.0.tgz#8d25c2e20a5d926ee7adcb142876cf58b57bb4e6"
+  integrity sha512-zwHbZfhORlSylBrbYWevjNKcLgdTfcyANhvjGs5ckUuiJGeD0s19B7sDuYO0z5CZ6EmLOmY/LIRc7ZR772W/OA==
 
 teamwork@3.x.x:
   version "3.0.1"
